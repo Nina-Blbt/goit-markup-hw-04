@@ -302,6 +302,7 @@ img {
 .social-btns-block {
   display: flex;
   gap: 24px;
+  justify-content: center;
 }
 
 .social-btns-list {
@@ -317,12 +318,26 @@ img {
   background-color: #4d5ae5;
   padding: 12px;
   border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.social-btns-link: :hover {
+  background-color: #404bbf;
+}
+
+.social-btns-link: :focus {
+  background-color: #404bbf;
 }
 
 .social-btns-icon {
   width: 16px;
   height: 16px;
-  fill: #fff;
+  fill: #f4f4fd;
 }
 
 /* Portfolio */
