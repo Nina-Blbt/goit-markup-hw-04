@@ -358,7 +358,7 @@ img {
     0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
 }
 
-.portfolio-item:hover .overlay {
+.portfolio-text:hover {
   transform: translateY(0%);
 }
 
@@ -430,4 +430,28 @@ img {
   letter-spacing: 0.02em;
   color: #f4f4fd;
   max-width: 264px;
+}
+
+.footer-links {
+  align-items: baseline;
+  margin-right: 120px;
+}
+
+.footer-text-social {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #ffffff;
+  margin-bottom: 16px;
+}
+
+.social-btns-footer-block {
+  display: flex;
+  gap: 16px;
+}
+
+.social-btns-list {
+  width: 40px;
+  height: 40px;
 }
